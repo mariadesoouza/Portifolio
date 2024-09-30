@@ -1,0 +1,15 @@
+#contato{
+    padding-bottom: 100px;
+    
+}
+
+.contato h1{
+    font-size: var();
+    margin-bottom: 20px;
+}
+
+.contato ul{
+    font-size: var();
+    margin-bottom:200px ;
+}
+
