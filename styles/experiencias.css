@@ -1,0 +1,34 @@
+#experiencias{
+    background-color: var(--cor-fundo);
+    color: var(--cor-branco);
+    padding-bottom: 150px;
+    text-align: center;
+}
+
+#experiencias h1{
+font-size: var(--fonte-titulo);
+}
+
+#experiencias ul{
+margin-top: 50px; 
+display: flex;
+justify-content: center;
+gap: 30px;
+}
+
+/* #experiencias li{
+background-color: #251C31;
+padding: 15px;
+border-radius: 100%;
+display: flex;
+width: 100px;
+} */
+
+#experiencias ul img{
+    width: 100%;
+    padding: 100%;
+}
+
+#experiencias img{
+    width: 70%;
+}

@@ -26,7 +26,7 @@
 }
 
 .inicio-apresentacao h1 b{
-  color: var(--roxo-claro)
+  color: var(--roxo-claro);
   border: 0.5px solid var(--cor-branco);
   border-radius: 56% 44% 63% 37% / 47% 39% 61% 53%;
   padding: 0px 30px;
@@ -38,6 +38,7 @@
 
 .inicio-sobre h2{
     font-size: var(--fonte-titulo);
+    margin-bottom: 25px;
 }
 
 .inicio-sobre h3{
@@ -50,6 +51,8 @@
     font-size: var(--fonte-paragrafo);
     width: 50%;
     background-color: #2C1250 ;
-
+    text-align: justify;
+    padding: 20px;
+    border-radius: 25px;
 
 }

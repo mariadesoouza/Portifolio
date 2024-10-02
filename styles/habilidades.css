@@ -1,34 +1,47 @@
-#habilidades{
+#habilidades {
     background-color: var(--cor-fundo);
-    color: var(--cor-branco);
     padding-bottom: 150px;
-    text-align: center;
+    color: var(--cor-branco);
 }
 
-#habilidades h1{
-font-size: var(--fonte-titulo);
+#habilidades h1 {
+    font-size: var(--fonte-titulo);
+    margin-bottom: 50px;
 }
 
-#habilidades ul{
-margin-top: 50px; 
-display: flex;
-justify-content: center;
-gap: 30px;
+.habilidades-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
-#habilidades li{
-background-color: #251C31;
-padding: 15px;
-border-radius: 100%;
-display: flex;
-width: 100px;
+.habilidades-container>div {
+    width: 45%;
+    height: 250px;
+    background: linear-gradient (130deg, var(--roxo-escuro) 0%, var (--roxo-medio) 50%, var (--roxo-claro) 100%);
+    border-top: 5px solid var(--roxo-claro);
+    border-radius: 30px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    transition: all .5s;
+}
+.habilidades-container>div:hover{
+    transform: scale(1.2);
 }
 
-#habilidades ul img{
-    width: 100%;
-    padding: 100%;
+.habilidades-container>div h2 {
+    font-size: var(--fonte-subtitulo);
 }
 
-#habilidades . img{
-    width: 70%;
+.habilidades-container>div a {
+    
+    color: var(--cor-branco);
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border: 2px solid var (--roxo-claro);
+    border-radius: 30px;
+    text-transform: lowercase
 }
