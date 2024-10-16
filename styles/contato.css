@@ -13,3 +13,33 @@
     margin-bottom:200px ;
 }
 
+
+.container{
+    text-align: center;
+}
+
+.whatsapp-button{
+    top: 20px;
+    position: relative;
+    margin-top: 20px;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #25D366;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.whatsapp-button:hover{
+    background-color: #128c7e;
+}
+
+.fa.img-wpp{
+    font-size: 40px;
+    color: #25D366;
+    transition: color 0.3s;
+}
+
+.fa.img-wpp:hover{
+    color: #128c7e;
+}
