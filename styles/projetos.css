@@ -50,4 +50,7 @@
   .projeto img{
     width: 45%;
     background-color: var(--roxo-escuro);
+    border-radius: 20px;
   }
+
+ 

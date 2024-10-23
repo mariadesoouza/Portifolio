@@ -6,29 +6,18 @@
 }
 
 #experiencias h1{
-font-size: var(--fonte-titulo);
+    padding: 20px;
+    font-size: var(--fonte-titulo);
 }
 
-#experiencias ul{
-margin-top: 50px; 
-display: flex;
-justify-content: center;
-gap: 30px;
+#experiencias h2{
+    padding: 20px;
+    color: var(--roxo-claro);
+    font-size: var(--fonte-subtitulo);
 }
 
-/* #experiencias li{
-background-color: #251C31;
-padding: 15px;
-border-radius: 100%;
-display: flex;
-width: 100px;
-} */
-
-#experiencias ul img{
-    width: 100%;
-    padding: 100%;
-}
-
-#experiencias img{
-    width: 70%;
+#experiencias p{
+    display: flex;
+    align-items: start;
+    justify-content: center;
 }
